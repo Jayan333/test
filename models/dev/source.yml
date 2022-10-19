@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: sample_dbt
+    database: raw
+    schema: jaffle_shop
+    tables: 
+      - name: customers
